@@ -2,7 +2,14 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
+
+First run local json server:
+```bash
+json-server --watch --port 4000 ./data/banner.json
+
+temporary api will be created at http://localhost:4000/0
+
+Then, run the development server:
 
 ```bash
 npm run dev
